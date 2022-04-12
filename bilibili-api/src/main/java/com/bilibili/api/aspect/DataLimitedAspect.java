@@ -29,7 +29,7 @@ public class DataLimitedAspect {
     @Autowired
     private UserRoleService userRoleService;
 
-    @Pointcut("@annotation(com.imooc.bilibili.domain.annotation.DataLimited)")
+    @Pointcut("@annotation(com..bilibili.domain.annotation.DataLimited)")
     public void check() {
     }
 

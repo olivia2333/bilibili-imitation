@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>imooc-bilibili</artifactId>
+    <artifactId>bilibili</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
@@ -145,9 +145,9 @@
     </dependencies>
 
     <modules>
-        <module>imooc-bilibili-api</module>
-        <module>imooc-bilibili-service</module>
-        <module>imooc-bilibili-dao</module>
+        <module>bilibili-api</module>
+        <module>bilibili-service</module>
+        <module>bilibili-dao</module>
     </modules>
 
     <properties>

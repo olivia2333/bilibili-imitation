@@ -29,7 +29,7 @@ public class ApiLimitedRoleAspect {
     @Autowired
     private UserRoleService userRoleService;
 
-    @Pointcut("@annotation(com.imooc.bilibili.domain.annotation.ApiLimitedRole)")
+    @Pointcut("@annotation(com..bilibili.domain.annotation.ApiLimitedRole)")
     public void check() {
     }
 
