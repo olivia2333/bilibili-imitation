@@ -12,10 +12,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableAsync
 @EnableTransactionManagement
 @EnableScheduling
-public class ImoocBilibiliApp {
+public class BilibiliApp {
 
     public static void main(String[] args) {
-        ConfigurableApplicationContext app = SpringApplication.run(ImoocBilibiliApp.class, args);
+        ConfigurableApplicationContext app = SpringApplication.run(BilibiliApp.class, args);
         WebSocketService.setApplicationContext(app);
     }
 }
